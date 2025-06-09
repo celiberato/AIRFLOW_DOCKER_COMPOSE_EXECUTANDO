@@ -1,7 +1,4 @@
 # AIRFLOW_DOCKER_COMPOSE_EXECUTANDO
 
-curl -LfO 'https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml'
 
-mkdir -p ./dags ./logs ./plugins
-
-docker-compose up -d
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
