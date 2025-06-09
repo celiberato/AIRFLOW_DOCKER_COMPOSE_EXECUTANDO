@@ -1,5 +1,7 @@
 # AIRFLOW_DOCKER_COMPOSE_EXECUTANDO
 
-sudo apt-get update
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/stable/docker-compose.yaml'
 
-sudo apt install python3-pipsudo apt install python3-pip
+mkdir -p ./dags ./logs ./plugins
+
+docker-compose up -d
